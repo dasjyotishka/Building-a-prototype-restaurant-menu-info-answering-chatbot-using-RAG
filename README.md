@@ -1,6 +1,6 @@
 # RAG-based-restaurant-menu-info-answering-chatbot
 
-This is a protype of a RAG based restaurant menu info answering chatbot. 
+This is a protype of a RAG based restaurant menu info answering chatbot. A demo restaurant menu is provided in a JSON file. The objective of this project is to use a RAG based question answering chatbot to reply to the user's question. In real life, this menu might be much bigger with more options. Hence, in order to save on tokens for the prompt, a RAG is used to retrieve the informations from the menu. The relevant informations can then be passed to an LLM to generate the desired output.
 
 # Steps to reproduce
 This repo contains a python notebook containing the code and the results obtained after executing the code. Sklearn was used for the modelling steps. To reproduce the code, just execute the cells of the notebook sequentially.
